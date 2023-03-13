@@ -21,14 +21,14 @@ let package = Package(
     // ...
     dependencies: [
         .package(
-            url: "https://github.com/Wisors/OBD2Connect.git",
-            from: "2.2.0"
+            url: "https://github.com/Sinton/obd-api-swift.git",
+            from: "1.0.0"
         )
     ],
     targets: [
         .target(
             name: "MyTarget",
-            dependencies: ["OBD2Connect"]
+            dependencies: ["obd-api-swift"]
         ),
     ]
 )
